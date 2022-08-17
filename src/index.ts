@@ -3,6 +3,7 @@ console.log(s)
 
 import { createApp } from "vue";
 
-import SButton from "./button";
+// import LzButton from "./button";
+import LzButton from "./LzButton.vue";
 
-createApp(SButton).mount("#app");
+createApp(LzButton).mount("#app");
