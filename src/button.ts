@@ -1,11 +1,11 @@
 import { defineComponent, h } from "vue";
 
 export default defineComponent({
-  name: "LzButton",
+  name: "MyButton",
 
   render() {
 
-    return h("button", null, "LzButton");
+    return h("button", null, "My Button");
 
   },
 
