@@ -5,5 +5,6 @@ import { createApp } from "vue";
 
 // import LzButton from "./button";
 import LzButton from "./LzButton.vue";
+import JSXButton from './JSXButton';
 
-createApp(LzButton).mount("#app");
+createApp(JSXButton).mount("#app");
