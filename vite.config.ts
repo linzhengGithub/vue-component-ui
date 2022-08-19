@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
+// JSX转换插件
 import vueJsx from '@vitejs/plugin-vue-jsx'
+import Unocss from "./config/unocss";
 
 // https://vitejs.dev/config/
 
@@ -17,19 +19,18 @@ const rollupOptions = {
 export default defineConfig({
   plugins: [
     vue(),
-    vueJsx({
-      // options are passed on to @vue/babel-plugin-jsx
-    })
+    vueJsx({}),
+    Unocss()
   ],
   build: {
     rollupOptions,
     minify: false,
     lib: {
       entry: "./src/entry.ts",
-      name: "VueComponentUi",
+      name: "VueComponentUI",
       fileName: "vue-component-ui",
       // 导出模块格式
-      formats: ['es', 'umd', 'iife'],
+      formats: ['esm', 'umd', 'iife'],
     },
     // outDir: 'lib'
   },
