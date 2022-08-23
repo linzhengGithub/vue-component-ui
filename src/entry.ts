@@ -1,5 +1,5 @@
-import { App } from 'vue';
-import UnoButton from './button/index';
+import { App } from "vue";
+import UnoButton from "./button/index";
 
 // 导出单独组件
 export { UnoButton };
@@ -8,7 +8,5 @@ export { UnoButton };
 export default {
   install(app: App) {
     app.component(UnoButton.name, UnoButton);
-  }
-}
-
-
+  },
+};

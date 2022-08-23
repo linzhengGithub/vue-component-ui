@@ -1,10 +1,10 @@
 import { createApp } from "vue/dist/vue.esm-browser";
 
-import VueComponentUI from './entry';
+import VueComponentUI from "./entry";
+var myName = 'Tom';
 
 createApp({
-  template:
-    `
+  template: `
     <div>
       <UnoButton>默认按钮</UnoButton>
       <UnoButton color="white">白色按钮</UnoButton>
@@ -21,7 +21,7 @@ createApp({
         <UnoButton>默认按钮</UnoButton>
         <UnoButton size="medium" >大号按钮</UnoButton>
       </div>
-  `
+  `,
 })
   .use(VueComponentUI)
   .mount("#app");
