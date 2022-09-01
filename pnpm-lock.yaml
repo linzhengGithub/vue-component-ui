@@ -16,6 +16,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-vue: ^9.4.0
   happy-dom: ^6.0.4
+  husky: ^8.0.1
   prettier: ^2.7.1
   unocss: ^0.45.8
   vite: ^3.0.8
@@ -43,6 +44,7 @@ devDependencies:
   eslint-plugin-json: 3.1.0
   eslint-plugin-prettier: 4.2.1_2xd4q2tc5cqa5as7uugqhp6oue
   eslint-plugin-vue: 9.4.0_eslint@8.22.0
+  husky: 8.0.1
   prettier: 2.7.1
   unocss: 0.45.8_vite@3.0.8
   vite: 3.0.8
@@ -2390,6 +2392,12 @@ packages:
   /human-signals/2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
+    dev: true
+
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /iconv-lite/0.6.3:

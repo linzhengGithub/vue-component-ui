@@ -11,7 +11,8 @@
     "docs:serve": "vitepress serve docs",
     "test": "vitest",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\""
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +31,7 @@
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.4.0",
+    "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "unocss": "^0.45.8",
     "vite": "^3.0.8",
